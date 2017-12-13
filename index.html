@@ -3,47 +3,73 @@
  <head>
 
     <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Personal webpage of Juan Pedro Dominguez Berdun, Computer Science engineer">
+    <meta name="author" content="Juan Pedro Dominguez Berdun">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Juan Pedro - DevOps engineer</title>
 
+    <link rel="stylesheet" href="styles/css/style.css" />
+
   </head>
   <body>
-
-    <header>
-      <h1>Welcome to my presentation page</h1>
+    <header class="header">
+      <div class="row">
+          <div class="col-4">
+            <h1>Welcome to my presentation page</h1>
+          </div>
+          <div class="col-8">
+            <aside class="aside col-12">
+              <ul class="row">
+                <a href="#About">
+                  <li class="col-4">
+                    About me
+                  </li>
+                </a>
+                <a href="#Career">
+                  <li class="col-4">
+                    Career
+                  </li>
+                </a>
+                <a href="#Contact">
+                  <li class="col-4">
+                      Contact
+                  </li>
+                </a>
+              </ul>
+            </aside>
+          </div>
+    </div>
     </header>
 
-    <section name="About">
-      <h3>About me</h3>
-      <p>More about me</p>
+    <section class="section">
+      
+      <div class="row">
+        <div class="col-1"></div>
+        <article class="article col-8" name="About">
+          <h3>About me</h3>
+          <p>More about me</p>
+        </article>
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <article class="article col-8" name="Career">
+          <h3>Carrer</h3>
+          <p>More about my career</p>
+        </article>  
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <article class="article col-8" name="Contact">
+          <h3>Contact me</h3>
+          <p>More about my contact</p>
+        </article>    
+      </div>
+      
     </section>
-    <section name="Career">
-      <h3>Carrer</h3>
-      <p>More about my career</p>
-    </section>
-    <section name="Contact">
-      <h3>Contact me</h3>
-      <p>More about my contact</p>
-    </section>
-
     
-    <aside>
-      <ul>
-        <li>
-          <a href="#About">About me</a>
-        </li>
-        <li>
-          <a href="#Career">Career</a>
-        </li>
-        <li>
-          <a href="#Contact">Contact</a>
-        </li>
-      </ul>
-    </aside>
-    <footer>
-      <h5>Developed by Juan Pedro Dominguez Berdun - 2018</h5>
+    <footer class="footer col-12">
+      <h5>Designed & developed by Juan Pedro Dominguez Berdun - 2018 - Apache 2.0</h5>
     </footer>
   </body>
 </html>
