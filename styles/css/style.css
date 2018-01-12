@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    margin: 0%;
 }
 a {
     text-decoration: none;
@@ -43,7 +42,11 @@ a {
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 700px) {
+    * {margin: 0%;}
+    .col-m-0 {width: 0%; display: none;}    
+}
+@media only screen and (min-width: 700px) {
     /* For desktops: */
     .col-0 {width: 0%; display: none;}
     .col-1 {width: 8.33%;}

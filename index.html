@@ -13,12 +13,13 @@
 
   </head>
   <body>
-    <header class="header">
+    <header class="header col-12">
       <div class="row">
-        <div class="col-4 col-m-12">
+        <div class="col-12 col-m-12">
           <h1>Juan Pedro Domínguez Berdún</h1>
         </div>
-        <div class="col-8 col-m-12">
+        <div class="col-1"></div>
+        <div class="col-10 col-m-12">
           <aside class="aside col-12 col-m-12">
             <ul class="row">
               <a href="#About">
@@ -41,9 +42,7 @@
         </div>
       </div>
     </header>
-
     <section class="section">
-      
       <div class="row">
         <article class="article col-12 col-m-12">
           <h3 id="About">About me</h3>
@@ -78,7 +77,16 @@
         </article>    
       </div>
       <div class="row">
-        <article class="article col-12 col-m-12">
+        <article class="article col-12 col-m-0">
+          <form method="post" >
+            <input type="email" placeholder="Email address" />
+            <input type="text" />
+            <input type="submit" value="Send" />
+          </form>
+        </article>
+      </div>
+      <div class="row">
+        <article class="article col-0 col-m-12">
           <div class="col-4"></div>
           <form method="post" class="col-4">
             <input class="col-m-12" type="email" placeholder="Email address" />
@@ -87,7 +95,6 @@
           </form>
         </article>
       </div>
-      
     </section>
     
     <footer class="footer col-12 col-m-12">
