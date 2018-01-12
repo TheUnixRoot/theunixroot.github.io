@@ -11,14 +11,14 @@ a {
 .article {
     width: 75%;
     float: left;
-    background-color: #E9E581;
-    color: #2B2B2B;
+    background-color: rgb(231, 143, 35);
+    color: #000000;
     padding: 15px;
 }
 .footer {
     width: 100%;
     float: left;
-    background-color: #2B2B2B;
+    background-color: #585858;
 }
 /* For mobile phones: */
 [class*="col-"] {
@@ -69,7 +69,7 @@ html {
     font-family: "Lucida Sans", sans-serif;
 }
 .header {
-    background-color: #2B2B2B;
+    background-color: #585858;
     color: #F6F6F6;
     padding: 15px;
 }
@@ -85,12 +85,13 @@ html {
 .aside li {
     padding: 8px;
     margin-bottom: 7px;
-    background-color :#DE1B1B;
+    background-color :#118C4E;
     color: #F6F6F6;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .aside li:hover {
-    background-color: rgb(165, 19, 19);
+    background-color: #C1E1A6;
+    color: rgb(87, 87, 87);
 }
 .downloadIcon {
     width: 34pt;
