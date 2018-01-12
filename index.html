@@ -7,6 +7,12 @@
     <meta name="author" content="Juan Pedro Dominguez Berdun">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
     <title>Juan Pedro - DevOps engineer</title>
 
     <link rel="stylesheet" href="styles/css/style.css" />
@@ -77,24 +83,21 @@
         </article>    
       </div>
       <div class="row">
-        <article class="article col-12 col-m-0">
-          <form method="post" >
-            <input type="email" placeholder="Email address" />
-            <input type="text" />
-            <input type="submit" value="Send" />
+          <form class="col-12">
+            <div class="row">
+              <div class="input-field col-6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">First Name</label>
+              </div>
+              <div class="input-field col-6">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Telephone</label>
+              </div>
+            </div>
           </form>
-        </article>
-      </div>
-      <div class="row">
-        <article class="article col-0 col-m-12">
-          <div class="col-4"></div>
-          <form method="post" class="col-4">
-            <input class="col-m-12" type="email" placeholder="Email address" />
-            <input class="col-m-12" type="text" />
-            <input class="col-m-12" type="submit" value="Send" />
-          </form>
-        </article>
-      </div>
+        </div>
     </section>
     
     <footer class="footer col-12 col-m-12">
