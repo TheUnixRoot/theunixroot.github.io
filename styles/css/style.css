@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 .aside {
     width: 25%;
     float: left;
@@ -21,6 +24,7 @@
 [class*="col-"] {
     width: 100%;
 }
+.in-row {width: 50%; float: left}
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-m-1 {width: 8.33%;}
