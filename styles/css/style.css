@@ -18,7 +18,8 @@ a {
 .footer {
     width: 100%;
     float: left;
-    background-color: #585858;
+    background-color: #2B2B2B;
+    color: #F6F6F6;
 }
 /* For mobile phones: */
 [class*="col-"] {
@@ -69,7 +70,7 @@ html {
     font-family: "Lucida Sans", sans-serif;
 }
 .header {
-    background-color: #585858;
+    background-color: #2B2B2B;
     color: #F6F6F6;
     padding: 15px;
 }
