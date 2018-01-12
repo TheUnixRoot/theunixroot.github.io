@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 a {
     text-decoration: none;
@@ -76,7 +77,6 @@ html {
 }
 .section {
     color: #F6F6F6;
-    padding: 15px;
 }
 .aside ul {
     list-style-type: none;
