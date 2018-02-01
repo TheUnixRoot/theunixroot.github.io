@@ -40,6 +40,10 @@ a {
     width: 50%;
     float: left
 }
+div.row {
+    margin: 0%;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
