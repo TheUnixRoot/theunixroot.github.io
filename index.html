@@ -1,107 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
 
-    <meta charset="utf-8">
-    <meta name="description" content="Personal webpage of Juan Pedro Dominguez Berdun, Computer Science engineer">
-    <meta name="author" content="Juan Pedro Dominguez Berdun">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<head>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>    
-    
-    <title>Juan Pedro - Computer engineer</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Personal webpage of Juan Pedro Dominguez Berdun, Computer Science engineer">
+  <meta name="author" content="Juan Pedro Dominguez Berdun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/css/style.css" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-  </head>
-  <body>
-    <header class="header col-12">
-      <div class="row">
-        <div class="col-12 col-m-12">
-          <h1>Juan Pedro Domínguez Berdún</h1>
-        </div>
-        <div class="col-1"></div>
-        <div class="col-10 col-m-12">
-          <aside class="aside col-12 col-m-12">
-            <ul class="row">
-              <a href="#About">
-                <li class="col-4 col-m-12">
-                  About me
-                </li>
-              </a>
-              <a href="#Career">
-                <li class="col-4 col-m-12">
-                  Career
-                </li>
-              </a>
-              <a href="#Contact">
-                <li class="col-4 col-m-12">
-                  Contact
-                </li>
-              </a>
-            </ul>
-          </aside>
-        </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <title>Juan Pedro - Computer engineer</title>
+
+  <link rel="stylesheet" href="styles/css/style.css" />
+  <script src="scripts/js/functions.js" ></script>
+
+</head>
+
+<body>
+  <header class="header col-12">
+    <div class="row">
+      <div class="col-12 col-m-12">
+        <h1>Juan Pedro Domínguez Berdún</h1>
       </div>
-    </header>
-    <section class="section">
-      <div class="row">
-        <article class="article col-12 col-m-12">
-          <h3 id="About">About me</h3>
-          <p>
-            I am a Computer Science engineer from Lanzarote, Canary Islands. I studied my degree at University of 
-            Málaga from 2014 to 2018, I consider myself a very compromised person and hungry for 
-            learning new things
-          </p>
-        </article>
-      </div>
-      <div class="row">
-        <article class="article col-12 col-m-12">
-            <h4>Curriculum Vitae</h4>
-            <a href="media/docs/CurriculumVitae-Juan-Pedro-Dominguez.pdf" target="_blank">
-                <img src="media/imgs/ic_file_download_black_48dp_2x.png" class="downloadIcon"/>
+      <div class="col-1"></div>
+      <div class="col-10 col-m-12">
+        <aside class="aside col-12 col-m-12">
+          <ul class="row">
+            <a href="javascript:scrollTo('About');">
+              <li class="col-4 col-m-12">
+                About me
+              </li>
             </a>
-        </article>
+            <a href="javascript:scrollTo('Career');">
+              <li class="col-4 col-m-12">
+                Career
+              </li>
+            </a>
+            <a href="javascript:scrollTo('Contact');">
+              <li class="col-4 col-m-12">
+                Contact
+              </li>
+            </a>
+          </ul>
+        </aside>
       </div>
-      <div class="row">
-        <article class="article col-12 col-m-12">
-          <h3 id="Career">Carrer</h3>
-          <p>I have been working for Sequel DevOps team for 6 months as an intern where
-            I learnt about CI process such as TFS tools to generate builds and releases from
-            source code. 
-          </p>
-        </article>  
-      </div>
-      <div class="row">
-        <article class="article col-12 col-m-12">
-          <h3 id="Contact">Contact me</h3>
-          <p>If you want to contact me, here you can:</p>
-        </article>    
-      </div>
-      <div class="row">
-        <article class="article col-12">
-            <form class="col-12">
-              <div class="row">
-                <div class="col-6">
-                  <label for="name">Name</label>
-                  <input id="name" type="text">
-                </div>
-                <div class="col-6">
-                  <label for="phone">Telephone</label>
-                  <input id="phone" type="tel">
-                </div>
-              </div>
-            </form>
-          </article>
-        </div>
-    </section>
+    </div>
+  </header>
+  <section class="section">
+    <div class="row">
+      <article class="article col-12 col-m-12">
+        <h3 id="About">About me</h3>
+        <p>
+          I am a Computer Science engineer from Lanzarote, Canary Islands. I studied my degree at University of Málaga from 2014 to
+          2018, I consider myself a very compromised person and hungry for learning new things
+        </p>
+        <h4>Curriculum Vitae</h4>
+        <a href="media/docs/CurriculumVitae-Juan-Pedro-Dominguez.pdf" target="_blank">
+          <img src="media/imgs/ic_file_download_black_48dp_2x.png" class="downloadIcon" />
+        </a>
+      </article>
+    </div>
     
-    <footer class="footer col-12 col-m-12">
-      <h5 style="text-align:center">Designed & developed by Juan Pedro Dominguez Berdun - 2018 - Apache 2.0</h5>
-    </footer>
-  </body>
+    <div class="row">
+      <article class="article col-12 col-m-12">
+        <h3 id="Career">Carrer</h3>
+        <p>I have been working for Sequel DevOps team for 6 months as an intern where I learnt about CI process such as TFS
+          tools to generate builds and releases from source code.
+        </p>
+      </article>
+    </div>
+    <div class="row">
+      <article class="article col-12 col-m-12">
+        <h3 id="Contact">Contact me</h3>
+        <p>If you want to contact me, here you can:</p>
+
+        <form class="col-12">
+          <div class="col-6">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+          </div>
+          <div class="col-6">
+            <label for="phone">Telephone</label>
+            <input id="phone" type="tel">
+          </div>
+        </form>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer col-12 col-m-12">
+    <h5 style="text-align:center">Designed & developed by Juan Pedro Dominguez Berdun - 2018 - Apache 2.0</h5>
+  </footer>
+</body>
+
 </html>
