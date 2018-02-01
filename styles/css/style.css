@@ -43,6 +43,10 @@ a {
 div.row {
     margin: 0%;
 }
+.section {
+    margin: 0%;
+    padding: 0%;
+}
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
@@ -64,7 +68,7 @@ div.row {
 }
 @media only screen and (max-width: 700px) {
     * {margin: 0%;}
-    .col-m-0 {width: 0%; display: none;}    
+    .col-m-0 {width: 0%; display: none;}
 }
 @media only screen and (min-width: 700px) {
     /* For desktops: */
