@@ -43,7 +43,6 @@ a {
 div.row {
     margin: 0%;
 }
-
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
