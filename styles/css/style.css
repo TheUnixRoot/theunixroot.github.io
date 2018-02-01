@@ -33,6 +33,7 @@ a {
     float: left;
     background-color: #293241;
     color: #f6f6f6;
+    height: 5vh;
 }
 .row::after {
     content: "";
@@ -49,6 +50,12 @@ div.row {
 .section {
     margin: 0%;
     padding: 0%;
+}
+.intro {
+    height: 75vh;
+}
+.ending {
+    height: 95vh;
 }
 /* For mobile phones: */
 [class*="col-"] {
