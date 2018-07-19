@@ -10,7 +10,7 @@
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
@@ -60,14 +60,15 @@
           2018, I consider myself a very compromised person and hungry for learning new things
         </p>
         <h4>Curriculum Vitae</h4>
-        <a href="media/docs/CurriculumVitae-Juan-Pedro-Dominguez.pdf" target="_blank">
-          <img src="media/imgs/ic_file_download_black_48dp_2x.png" class="downloadIcon" />
+        
+        <a href="media/docs/CurriculumVitae-Juan-Pedro-Dominguez.pdf" target="_blank" class="waves-effect waves-light btn alt-color">
+          <i class="material-icons left">account_box</i>Download
         </a>
       </article>
     </div>
     
     <div id="Career" class="row">
-      <article class="article col-12 col-m-12" style="color: white; background-color: #3d5a80;">
+      <article class="article col-12 col-m-12 alt-color">
         <h3>Carrer</h3>
         <p class="p">I have been working for Sequel DevOps team for 6 months as an intern where I learnt about CI process such as TFS
           tools to generate builds and releases from source code.
@@ -79,15 +80,25 @@
         <h3>Contact me</h3>
         <p class="p">If you want to contact me, here you can:</p>
 
-        <form class="col-12">
-          <div class="col-6">
+        <form action="javascript:sendData()" class="col-12">
+          <div class="col-4">
             <label for="name" class="p">Name</label>
             <input id="name" type="text">
           </div>
-          <div class="col-6">
+          <div class="col-4">
+            <label for="msg" class="p">Message</label>
+            <textarea id="msg" class="materialize-textarea"></textarea>
+          </div>
+          <div class="col-4">
             <label for="email" class="p">Email</label>
             <input id="email" type="email">
           </div>
+          <button class="btn waves-effect waves-light alt-color" type="submit">
+            Submit<i class="material-icons right">send</i>
+          </button>
+          <button class="btn waves-effect waves-light alt-color" type="reset">
+            Reset<i class="material-icons right">replay</i>
+          </button>
         </form>
       </article>
     </div>
