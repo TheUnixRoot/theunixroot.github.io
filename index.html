@@ -7,105 +7,124 @@
   <meta name="description" content="Personal webpage of Juan Pedro Dominguez Berdun, Computer Science engineer">
   <meta name="author" content="Juan Pedro Dominguez Berdun">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
+  
   <title>Juan Pedro - Computer engineer</title>
 
+  <link rel='icon' href='endless.png' type='image/x-icon'/>
   <link rel="stylesheet" href="styles/css/style.css" />
   <script src="scripts/js/functions.js" ></script>
 
 </head>
 
 <body>
-  <header class="header col-12">
-    <div class="row">
-      <div class="col-12 col-m-12">
-        <h1>Juan Pedro Domínguez Berdún</h1>
-      </div>
-      <div class="col-1"></div>
-      <div class="col-10 col-m-12">
-        <aside class="aside col-12 col-m-12">
-          <ul class="row">
-            <a href="javascript:scrollTo('About');">
-              <li class="col-4 col-m-12">
-                About me
-              </li>
-            </a>
-            <a href="javascript:scrollTo('Career');">
-              <li class="col-4 col-m-12">
-                Career
-              </li>
-            </a>
-            <a href="javascript:scrollTo('Contact');">
-              <li class="col-4 col-m-12">
-                Contact
-              </li>
-            </a>
-          </ul>
-        </aside>
-      </div>
-    </div>
+  <header class="header">
+    <h1 class="header--title">
+      Juan Pedro Domínguez Berdún
+    </h1>
+    <aside class="header--aside">
+      <ul class="aside--ul">
+        <a class="aside--ul__a" href="javascript:scrollTo('About');">
+          <li class="aside--ul__li">
+            About me
+          </li>
+        </a>
+        <a class="aside--ul__a" href="javascript:scrollTo('Career');">
+          <li class="aside--ul__li">
+            Career
+          </li>
+        </a>
+        <a class="aside--ul__a" href="javascript:scrollTo('Contact');">
+          <li class="aside--ul__li">
+            Contact
+          </li>
+        </a>
+      </ul>
+    </aside>
   </header>
   <section class="section">
-    <div id="About" class="row">
-      <article class="article intro col-12 col-m-12">
-        <h3>About me</h3>
-        <p class="p">
-          I am a Computer Science engineer from Lanzarote, Canary Islands. I studied my degree at University of Málaga from 2014 to
-          2018, I consider myself a very compromised person and hungry for learning new things
-        </p>
-        <h4>Curriculum Vitae</h4>
-        
-        <a href="media/docs/CurriculumVitae-Juan-Pedro-Dominguez.pdf" target="_blank" class="waves-effect waves-light btn alt-color">
-          <i class="material-icons left">account_box</i>Download
-        </a>
-      </article>
-    </div>
-    
-    <div id="Career" class="row">
-      <article class="article col-12 col-m-12 alt-color">
-        <h3>Carrer</h3>
-        <p class="p">I have been working for Sequel DevOps team for 6 months as an intern where I learnt about CI process such as TFS
-          tools to generate builds and releases from source code.
-        </p>
-      </article>
-    </div>
-    <div id="Contact" class="row">
-      <article class="article ending col-12 col-m-12">
-        <h3>Contact me</h3>
-        <p class="p">If you want to contact me, here you can:</p>
+    <article id="About" class="section--article">
+      <h3 class="section--h3">About me</h3>
+      <p class="section--p">
+        I am a Computer Science engineer from Lanzarote, Canary Islands. I have studied my computer degree at University of Málaga from 2014 to
+        2018.
+      </p>
+      <p class="section--p">
+        I consider myself a very compromised person and hungry for learning new things.
+        My career started some years ago with an internship opportunity which shown me the benefits of DevOps practices and since that momment I've been digging into it.
+      </p>
+      <p class="section--p">
+        Some of my hobbies are going hiking and traveling, I like to visit new countries and meeting foreign cultures. I have to say that, I really like tasting new beers and exotic dishes.
+      </p>
+      <br/>
+      <h4 class="section--h4">Curriculum Vitae</h4>
+      
+      <a href="media/docs/CurriculumVitae-Juan-Pedro-Dominguez.pdf" target="_blank" class="waves-effect waves-light btn alt-color">
+        <img class="cv-image" src="media/imgs/download.svg"/>
+      </a>
 
-        <form action="javascript:sendData()" class="col-12">
-          <div class="col-4">
-            <label for="name" class="p">Name</label>
-            <input id="name" type="text">
+    </article>
+    
+    <article id="Career" class="section--article">
+      <h3 class="section--h3">Carrer</h3>
+      <p class="section--p">I have been working for several years as DevOps engineer in the following companies:
+      </p>
+
+      <br/>
+      <div class="section--timeline">
+        <hr class="section--timeline__line">
+        <div class="section--timeline__containers">
+          <div class="section--timeline__container">
+            <div class="timeline--container__content">
+              <h2>Sequel Business</h2>
+              <h2>July 2017 - January 2018</h2>
+              <p>Intern</p>
+            </div>
           </div>
-          <div class="col-4">
-            <label for="msg" class="p">Message</label>
-            <textarea id="msg" class="materialize-textarea"></textarea>
+          <div class="section--timeline__container">
+            <div class="timeline--container__content">
+              <h2>Sequel Business</h2>
+              <h2>March 2018 - November 2019</h2>
+              <p>Devops developer</p>
+            </div>
           </div>
-          <div class="col-4">
-            <label for="email" class="p">Email</label>
-            <input id="email" type="email">
+          <div class="section--timeline__container">
+            <div class="timeline--container__content">
+              <h2>Verisk Solutions</h2>
+              <h2>November 2019 - January 2020</h2>
+              <p>Devops engineer</p>
+            </div>
           </div>
-          <button class="btn waves-effect waves-light alt-color" type="submit">
-            Submit<i class="material-icons right">send</i>
-          </button>
-          <button class="btn waves-effect waves-light alt-color" type="reset">
-            Reset<i class="material-icons right">replay</i>
-          </button>
-        </form>
-      </article>
-    </div>
+          <div class="section--timeline__container">
+            <div class="timeline--container__content">
+              <h2>Ciklum</h2>
+              <h2>January 2020 - Present</h2>
+              <p>Middle Devops engineer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article id="Contact" class="section--article">
+      <h3 class="section--h3">Contact me</h3>
+      <p class="section--p">If you want to contact me, here you can:</p>
+      <div class="contact-me-list" >
+        <a href="http://github.com/theunixroot">
+          <img class="contact-me-list__image" src="media/imgs/github.png">
+        </a>
+        <a href="http://linkedin.com/juanpedomber">
+          <img class="contact-me-list__image" src="media/imgs/linkedin.png">
+        </a>
+      </div>
+    </article>
   </section>
 
-  <footer class="footer col-12 col-m-12">
-    <h6 style="text-align:center">Designed & developed by Juan Pedro Dominguez Berdun - 2018 - Apache 2.0</h6>
+  <footer class="footer">
+    <h6 class="footer--h6">Designed & developed by Juan Pedro Dominguez Berdun - 2020</h6>
+    <h6 class="footer--h8">Icons made by 
+      <a class="footer--h8__a" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+       from <a class="footer--h8__a" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </h6>
   </footer>
 </body>
 
