@@ -167,6 +167,10 @@ a {
     .section--timeline {
         height: 900px;
     }
+    
+    .section--timeline__line {
+        margin-left: 10px;
+    }
     .footer {
         padding-top: 3pt;
         padding-bottom: 3pt;
